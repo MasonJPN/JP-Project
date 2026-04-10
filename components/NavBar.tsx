@@ -2,13 +2,14 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="relative z-20 flex items-center bg-[#3A3A3A] text-[#F7F4E9] w-full h-32 shadow-md border-b border-black">
+    <nav className="relative z-20 flex items-center bg-[#3A3A3A]/90 backdrop-blur-md
+ text-[#F7F4E9] w-full h-22 shadow-md border-b border-black">
 
       
           <img
             src="/xylonLogo.png"
             alt="logo"
-            className="h-20 w-20 ml-15 rounded-full p-2 shadow-md bg-[#F7F4E9] border border-black"
+            className="h-20 w-20 ml-15 rounded-full p-2 shadow-md bg-[#F0EBE1] border border-black"
           />
           <h2 className="text-2xl px-4 font-semibold">
             <Link href="/">
