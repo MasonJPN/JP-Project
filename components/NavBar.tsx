@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="relative z-20 flex items-center bg-[#3A3A3A]/90 backdrop-blur-md
- text-[#F7F4E9] w-full h-22 shadow-md border-b border-black">
+    <nav className="relative z-20 flex items-center bg-[#3E2A1F]/85 backdrop-blur-md
+ text-[#F7F4E9] w-full h-23 shadow-md border-b border-black">
 
       
           <img

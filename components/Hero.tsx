@@ -1,15 +1,15 @@
 export default function Hero() {
   return (
-    <div className="relative w-screen h-[470px]">
+    <div className="relative w-screen h-123">
       
       <img
         src="/HeroImage.png"
-        className="w-full h-full object-cover brightness-75"
+        className="w-full h-135 object-cover brightness-40"
       />
 
       <div className="absolute inset-0 flex flex-col justify-center items-center text-[#F7F4E9] text-center px-4">
         
-        <h1 className="text-6xl font-semibold drop-shadow-md tracking-wide">
+        <h1 className="text-7xl font-semibold drop-shadow-md tracking-wide">
           XylonDesignCo.
         </h1>
 
