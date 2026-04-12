@@ -25,24 +25,24 @@ export default function Featured() {
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
         <img
-          src="/fakeImage.png"
-          className="w-full h-[250px] object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
+          src="/Chair.png"
+          className="w-full h-62.5 object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
         />
         
 
         <img
-          src="/fakeImage.png"
-          className="w-full h-[250px] object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
+          src="/Stand.png"
+          className="w-full h-62.5 object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
+        />
+
+        <img
+          src="/OutdoorTable.png"
+          className="w-full h-62.5 object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
         />
 
         <img
           src="/fakeImage.png"
-          className="w-full h-[250px] object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
-        />
-
-        <img
-          src="/fakeImage.png"
-          className="w-full h-[250px] object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
+          className="w-full h-62.5 object-cover rounded-lg shadow-sm hover:scale-105 transition duration-300"
         />
 
       </div>

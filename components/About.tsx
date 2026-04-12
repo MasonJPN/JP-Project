@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <section className="bg-[#EFE9DC] py-24 px-6 ">
+    <section className="bg-[#37261c]   py-24 px-6 ">
 
       
       <div className="max-w-4xl mx-auto text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-semibold text-[#3E2A1F]">
+        <h2 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9] ">
           Built to Last Generations
         </h2>
       </div>
@@ -13,7 +13,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-40 items-center">
 
         
-        <div className="text-[#6B4A2E] text-lg leading-relaxed">
+        <div className="text-[#F7F4E9]  text-xl leading-relaxed">
           <p className="mb-6">
             We craft custom hardwood furniture using solid materials and
             time-tested techniques. Every piece is built with intention,
@@ -22,7 +22,7 @@ export default function About() {
 
           <a
             href="/about"
-            className="text-[#3E2A1F] font-medium hover:text-[#A67C52] transition"
+            className="text-[#C4873A] font-medium hover:text-[#A67C52] transition"
           >
             Learn more →
           </a>
@@ -32,7 +32,7 @@ export default function About() {
         <div className="">
           <img
             src="/Owner.png"
-            className="w-80 h-150 object-cover rounded-lg   border-4 border-[#6B4A2E] shadow-2xl shadow-brown"
+            className="w-80 h-150 object-cover rounded-lg   border-4 border-[#C4873A] shadow-2xl shadow-brown"
           />
         </div>
 

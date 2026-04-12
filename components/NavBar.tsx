@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="relative z-20 flex items-center bg-[#3E2A1F]/85 backdrop-blur-md
+    <nav className="relative z-20 flex items-center bg-[#3A3A3A]
  text-[#F7F4E9] w-full h-23 shadow-md border-b border-black">
 
       
@@ -21,20 +21,24 @@ export default function NavBar() {
       <div className="ml-auto  mr-10 gap-30">
        
         <ul className="flex  justify-center items-end gap-20 text-lg font-medium">
-          <li className="cursor-pointer hover:text-[#837668] transition">About Us</li>
+          <li className="cursor-pointer hover:text-[#C4873A] transition">
+            <Link href="/AboutUs">
+            About Us
+            </Link>
+          </li>
 
-          <li className="cursor-pointer hover:text-[#837668] transition">
+          <li className="cursor-pointer hover:text-[#C4873A] transition">
             <Link href="/Contact">
             Contact
             </Link>
             </li>
-            <li className="cursor-pointer hover:text-[#837668] transition">
+            <li className="cursor-pointer hover:text-[#C4873A] transition">
            <Link href="/shop">
-           Shop
+           Ordering
            </Link> 
             </li>
           
-          <li className="cursor-pointer hover:text-[#837668] transition">Gallery</li>
+          <li className="cursor-pointer hover:text-[#C4873A] transition">Gallery</li>
         </ul>
 
         

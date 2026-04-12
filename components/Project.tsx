@@ -1,24 +1,20 @@
+import Link from "next/link"
 
-
-
-
-
-export default function Project(){
-
-    return (
-        <div className="bg-[#3E2A1F] w-full h-70 flex flex-col gap-15 justify-center items-center text-center text-5xl">
-           <div className="">
-            <h1>Ready to Build Something Unique?</h1>
-           </div> 
-
-           <div>
-
-            <button className="border text-3xl h-20 w-100 bg-[#3A3A3A]  text-[#F7F4E9] hover:text-[#837668] transition rounded-full">
-                Start a Project
-                </button>
-           </div>
-
-     
-        </div>
-    )
+export default function Project() {
+  return (
+    <section className="bg-[#C4873A] py-20 px-6 text-center">
+      <h2 className="text-4xl md:text-5xl font-semibold text-[#3E2A1F] mb-4">
+        Ready to Build Something Unique?
+      </h2>
+      <p className="text-[#3E2A1F] text-lg mb-10 opacity-80">
+        Reach out and let's talk about your project.
+      </p>
+      <Link
+        href="/Contact"
+        className="inline-block bg-[#3E2A1F] text-[#F7F4E9] font-semibold px-10 py-4 rounded-full hover:bg-[#2A1A0F] transition text-lg"
+      >
+        Start a Project
+      </Link>
+    </section>
+  )
 }
