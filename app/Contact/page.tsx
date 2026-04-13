@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-[#F0EBE1]">
 
-      {/* Header */}
+      
       <div className="bg-[#3E2A1F] py-16 text-center">
         <p className="text-[#C4873A] text-sm font-semibold tracking-widest uppercase mb-3">
           Get in Touch

@@ -38,7 +38,11 @@ export default function NavBar() {
            </Link> 
             </li>
           
-          <li className="cursor-pointer hover:text-[#C4873A] transition">Gallery</li>
+          <li className="cursor-pointer hover:text-[#C4873A] transition">
+            <Link href="/Gallery">
+            Gallery
+            </Link>
+          </li>
         </ul>
 
         

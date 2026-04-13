@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <div className="relative w-screen h-123">
@@ -19,11 +21,15 @@ export default function Hero() {
 
         <div className="flex gap-6 mt-8">
           <button className="border border-[#F7F4E9] px-6 py-3 rounded-full hover:bg-[#F7F4E9] hover:text-[#6B4A2E] transition">
+            <Link href="/Gallery">
             View Work
+            </Link>
           </button>
 
           <button className="bg-[#C4873A] px-6 py-3 rounded-full text-white hover:opacity-90 transition">
+            <Link href="/shop">
             Custom Orders
+            </Link>
           </button>
         </div>
 

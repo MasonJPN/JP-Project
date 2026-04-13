@@ -4,7 +4,7 @@ export default function Shop() {
   return (
     <div className="min-h-screen bg-[#F0EBE1]">
 
-      {/* Header */}
+      
       <div className="bg-[#3E2A1F] py-16 text-center">
         <p className="text-[#C4873A] text-sm font-semibold tracking-widest uppercase mb-3">
           Everything You Need to Know
@@ -14,10 +14,10 @@ export default function Shop() {
         </h1>
       </div>
 
-      {/* Content */}
+      
       <div className="max-w-4xl mx-auto px-6 py-20 flex flex-col gap-6">
 
-        {/* How to Order */}
+       
         <div className="bg-[#F7F4E9] border border-[#D6D0C4] rounded-xl p-8">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             01
@@ -38,7 +38,7 @@ export default function Shop() {
           </p>
         </div>
 
-        {/* Lead Time */}
+        
         <div className="bg-[#F7F4E9] border border-[#D6D0C4] rounded-xl p-8">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             02
@@ -56,7 +56,7 @@ export default function Shop() {
           </p>
         </div>
 
-        {/* Payment */}
+        
         <div className="bg-[#F7F4E9] border border-[#D6D0C4] rounded-xl p-8">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             03
@@ -73,7 +73,7 @@ export default function Shop() {
           </p>
         </div>
 
-        {/* Delivery */}
+        
         <div className="bg-[#F7F4E9] border border-[#D6D0C4] rounded-xl p-8">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             04
@@ -87,12 +87,12 @@ export default function Shop() {
             <span className="text-[#3E2A1F] font-medium">Indianapolis area</span>
             . Delivery cost depends on your location and will be confirmed at the
             time of order. You're also welcome to pick up your piece directly from
-            the shop in Carmel, IN — just coordinate a time when you place your
+            the shop in Indianapolis, IN — just coordinate a time when you place your
             order.
           </p>
         </div>
 
-        {/* Guarantee */}
+        
         <div className="bg-[#F7F4E9] border border-[#D6D0C4] rounded-xl p-8">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             05
@@ -109,7 +109,7 @@ export default function Shop() {
           </p>
         </div>
 
-        {/* Visit the Shop */}
+        
         <div className="bg-[#3E2A1F] rounded-xl p-8">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             06
@@ -118,11 +118,8 @@ export default function Shop() {
             Visit the Shop
           </h2>
           <p className="text-[#D6D0C4] leading-relaxed mb-6">
-            You're welcome to come see the shop in person. We're located at{" "}
-            <span className="text-[#F7F4E9] font-medium">
-              1128 Clairbourne Court, Carmel, IN 46280
-            </span>
-            . Please call ahead to make sure someone will be available to meet you.
+            You're welcome to come see the shop in person. We're located in Indianapolis. 
+            Call ahead to schedule a visit and to make sure someone will be available to meet you.
           </p>
           <Link
             href="/contact"

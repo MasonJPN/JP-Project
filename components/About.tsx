@@ -21,7 +21,7 @@ export default function About() {
           </p>
 
           <a
-            href="/about"
+            href="/AboutUs"
             className="text-[#C4873A] font-medium hover:text-[#A67C52] transition"
           >
             Learn more →

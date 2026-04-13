@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "XylonDesignCo.",
+  title: "Xylon Design Co.",
   description: "by Mason Fancher",
+  icons: {
+    icon: "/xylonLogo.png"
+  }
 };
 
 export default function RootLayout({
@@ -31,7 +34,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col ">
         <NavBar/>
-       <main className="flex-grow">
+       <main className="grow">
         {children}
        </main>
         <Footer/>

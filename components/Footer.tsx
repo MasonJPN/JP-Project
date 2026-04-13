@@ -22,8 +22,8 @@ export default function Footer() {
           <h2 className="text-sm font-semibold tracking-widest uppercase text-[#C4873A]">Navigate</h2>
           <ul className="flex flex-col gap-2 text-[#D6D0C4]">
             <li><Link href="/" className="hover:text-[#C4873A] transition">Home</Link></li>
-            <li><Link href="/about" className="hover:text-[#C4873A] transition">About Us</Link></li>
-            <li><Link href="/shop" className="hover:text-[#C4873A] transition">Shop</Link></li>
+            <li><Link href="/AboutUs" className="hover:text-[#C4873A] transition">About Us</Link></li>
+            <li><Link href="/shop" className="hover:text-[#C4873A] transition">Ordering</Link></li>
             <li><Link href="/Contact" className="hover:text-[#C4873A] transition">Contact</Link></li>
           </ul>
         </div>

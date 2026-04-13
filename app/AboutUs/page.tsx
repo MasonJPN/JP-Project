@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen bg-[#F0EBE1]">
 
-      {/* Header */}
+      
       <div className="bg-[#3E2A1F] py-20 text-center px-6">
         <p className="text-[#C4873A] text-sm font-semibold tracking-widest uppercase mb-3">
           Our Story
@@ -16,13 +16,13 @@ export default function AboutUs() {
         </h1>
       </div>
 
-      {/* What's in a name */}
+      
       <div className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-16 items-center">
         <div className="flex justify-center">
           <img
             src="/xylonLogo.png"
             alt="Xylon Design Co. Logo"
-            className="w-64 h-64 rounded-full bg-[#F7F4E9] border-4 border-[#C4873A] shadow-xl object-contain p-6"
+            className="w-64 h-64 rounded-full bg-[#F2EEE8] border-4 border-[#C4873A] shadow-xl object-contain p-6"
           />
         </div>
         <div>
@@ -74,7 +74,7 @@ export default function AboutUs() {
             A one-man shop, by design
           </h2>
           <p className="text-[#837668] leading-relaxed mb-4">
-            Xylon Design Co. is run out of a small shop in Carmel, Indiana. Every
+            Xylon Design Co. is run out of a small shop in Indianapolis, Indiana. Every
             piece — from the first cut to the final coat of finish — passes through
             the same pair of hands. There's no factory, no assembly line, no
             shortcuts.
@@ -98,7 +98,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* Values strip */}
+      
       <div className="bg-[#3E2A1F] py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-4 text-center">
