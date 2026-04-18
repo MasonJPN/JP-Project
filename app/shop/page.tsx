@@ -29,7 +29,7 @@ export default function Shop() {
             You can place an order by calling us at{" "}
             <span className="text-[#3E2A1F] font-medium">(317) 760-7854</span>{" "}
             or by filling out our{" "}
-            <Link href="/contact" className="text-[#C4873A] hover:text-[#A67C52] transition underline underline-offset-2">
+            <Link href="/Contact" className="text-[#C4873A] hover:text-[#A67C52] transition underline underline-offset-2">
               online contact form
             </Link>
             . If you're looking to customize a standard piece or commission something
@@ -122,7 +122,7 @@ export default function Shop() {
             Call ahead to schedule a visit and to make sure someone will be available to meet you.
           </p>
           <Link
-            href="/contact"
+            href="/Contact"
             className="inline-block bg-[#C4873A] text-[#F7F4E9] font-semibold px-8 py-3 rounded-full hover:bg-[#A67C52] transition"
           >
             Get in Touch
