@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="relative w-screen h-123">
+    <div className="relative w-screen ">
       
       <img
         src="/HeroImage.png"
-        className="w-full h-135 object-cover brightness-50"
+        className="w-full h-screen object-cover brightness-50"
       />
 
       <div className="absolute inset-0 flex flex-col justify-center items-center text-[#F7F4E9] text-center px-4">
         
-        <h1 className="text-7xl font-semibold drop-shadow-lg tracking-wide">
+        <h1 className="text-7xl font-semibold drop-shadow-lg tracking-wide font-(family-name:--font-playfair)">
           Xylon Design Co.
         </h1>
 

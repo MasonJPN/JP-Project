@@ -16,7 +16,7 @@ export default function Featured() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             Our Work
           </p>
-          <h1 className="text-4xl md:text-5xl font-semibold text-[#3E2A1F]">
+          <h1 className="text-4xl md:text-5xl font-semibold text-[#3E2A1F] font-(family-name:--font-playfair)">
             Featured Pieces
           </h1>
           <p className="text-[#837668] mt-3 text-lg">

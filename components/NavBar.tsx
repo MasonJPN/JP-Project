@@ -11,7 +11,7 @@ export default function NavBar() {
             alt="logo"
             className="h-20 w-20 ml-15 rounded-full p-2 shadow-md bg-[#F0EBE1] border border-black"
           />
-          <h2 className="text-2xl px-4 font-semibold">
+          <h2 className="text-2xl px-4 font-semibold font-(family-name:--font-playfair)">
             <Link href="/">
             Xylon Design Co.
             </Link>

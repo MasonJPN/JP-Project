@@ -11,7 +11,7 @@ export default function AboutUs() {
         <p className="text-[#C4873A] text-sm font-semibold tracking-widest uppercase mb-3">
           Our Story
         </p>
-        <h1 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9]">
+        <h1 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9] font-(family-name:--font-playfair)">
           About Xylon Design Co.
         </h1>
       </div>
@@ -64,7 +64,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* The maker */}
+      
       <div className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-16 items-center">
         <div>
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-4">
@@ -104,7 +104,7 @@ export default function AboutUs() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-4 text-center">
             How We Work
           </p>
-          <h2 className="text-3xl font-semibold text-[#F7F4E9] mb-14 text-center">
+          <h2 className="text-3xl font-semibold text-[#F7F4E9] mb-14 text-center font-(family-name:--font-playfair)">
             The Xylon standard
           </h2>
           <div className="grid md:grid-cols-3 gap-8">

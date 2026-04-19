@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
-body{
-    background: #ECE8DF;
 
-}
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-dm-sans), sans-serif;
+  background: #ECE8DF;
+} 
 
 @theme {
   --animate-fade-in-right: fadeInRight 0.8s ease-out forwards;

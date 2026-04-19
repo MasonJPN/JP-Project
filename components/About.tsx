@@ -11,7 +11,7 @@ export default function About() {
   return (
     <section className="bg-[#37261c] py-24 px-6">
       <div className="max-w-4xl mx-auto text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9]">
+        <h2 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9] font-(family-name:--font-playfair)">
           Built to Last Generations
         </h2>
       </div>

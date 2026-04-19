@@ -32,8 +32,8 @@ export default function Testimonials() {
     <div className="bg-[#F7F4E9]">
       <div className="text-center py-16">
         
-        <h2 className="text-4xl md:text-5xl font-semibold text-[#37261c]">
-          Customer Testimonials
+        <h2 className="text-4xl md:text-5xl font-semibold text-[#37261c] font-(family-name:--font-playfair)">
+          Customer Reviews
         </h2>
       </div>
 
