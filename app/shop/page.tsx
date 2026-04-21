@@ -9,7 +9,7 @@ export default function Shop() {
         <p className="text-[#C4873A] text-sm font-semibold tracking-widest uppercase mb-3">
           Everything You Need to Know
         </p>
-        <h1 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9]">
+        <h1 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9] font-(family-name:--font-playfair)">
           Ordering & Shipping
         </h1>
       </div>
@@ -22,7 +22,7 @@ export default function Shop() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             01
           </p>
-          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4">
+          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4 font-(family-name:--font-playfair)">
             How to Order
           </h2>
           <p className="text-[#837668] leading-relaxed">
@@ -43,7 +43,7 @@ export default function Shop() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             02
           </p>
-          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4">
+          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4 font-(family-name:--font-playfair)">
             Lead Time
           </h2>
           <p className="text-[#837668] leading-relaxed">
@@ -61,7 +61,7 @@ export default function Shop() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             03
           </p>
-          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4">
+          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4 font-(family-name:--font-playfair)">
             Payment Terms
           </h2>
           <p className="text-[#837668] leading-relaxed">
@@ -78,7 +78,7 @@ export default function Shop() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             04
           </p>
-          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4">
+          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4 font-(family-name:--font-playfair)">
             Delivery & Pickup
           </h2>
           <p className="text-[#837668] leading-relaxed">
@@ -97,7 +97,7 @@ export default function Shop() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             05
           </p>
-          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4">
+          <h2 className="text-2xl font-semibold text-[#3E2A1F] mb-4 font-(family-name:--font-playfair)">
             Our Guarantee
           </h2>
           <p className="text-[#837668] leading-relaxed">
@@ -114,7 +114,7 @@ export default function Shop() {
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-3">
             06
           </p>
-          <h2 className="text-2xl font-semibold text-[#F7F4E9] mb-4">
+          <h2 className="text-2xl font-semibold text-[#F7F4E9] mb-4 font-(family-name:--font-playfair)">
             Visit the Shop
           </h2>
           <p className="text-[#D6D0C4] leading-relaxed mb-6">

@@ -22,7 +22,7 @@ export default async function Gallery() {
         <p className="text-[#C4873A] text-sm font-semibold tracking-widest uppercase mb-3">
           Handcrafted
         </p>
-        <h1 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9]">
+        <h1 className="text-4xl md:text-5xl font-semibold text-[#F7F4E9] font-(family-name:--font-playfair)">
           Gallery
         </h1>
       </div>
