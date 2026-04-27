@@ -46,7 +46,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* Dark divider — the mission */}
+      
       <div className="bg-[#3A3A3A] py-20 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xs font-semibold tracking-widest uppercase text-[#C4873A] mb-4">

@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Navigation */}
+        
         <div className="flex flex-col items-start gap-3 border-b border-white/10 pb-6 sm:border-none sm:pb-0">
           <h2 className="text-xs font-semibold tracking-wider uppercase text-[#C4873A]">
             Navigate
@@ -38,7 +38,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact */}
+        
         <div className="flex flex-col items-start gap-3 border-b border-white/10 pb-6 md:border-none md:pb-0">
           <h2 className="text-xs font-semibold tracking-wider uppercase text-[#C4873A]">
             Contact
@@ -50,7 +50,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Social */}
+        
         <div className="flex flex-col items-start gap-3">
           <h2 className="text-xs font-semibold tracking-wider uppercase text-[#C4873A]">
             Connect
@@ -76,7 +76,7 @@ export default function Footer() {
 
       </div>
 
-      {/* Bottom bar */}
+      
       <div className="border-t border-white/10 text-center py-6">
         <p className="text-sm text-[#D6D0C4]">
           © 2026 Xylon Design Co. All rights reserved.
