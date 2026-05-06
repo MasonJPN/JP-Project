@@ -42,45 +42,8 @@ A modern, multi-page marketing and portfolio website built for a hardwood furnit
 - **Navbar with hover effects** — Subtle, polished navigation experience
 - **Refined typography** — Playfair Display for headings, DM Sans for body copy
 ---
+
  
-## Getting Started
- 
-### Prerequisites
- 
-- Node.js `v18+`
-- npm or yarn
-### Installation
- 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/xylon-design-co.git
- 
-# Navigate into the project
-cd xylon-design-co
- 
-# Install dependencies
-npm install
-```
- 
-### Environment Variables
- 
-Create a `.env.local` file in the root of the project and add the following:
- 
-```env
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
-```
- 
-> You'll need a free [Cloudinary](https://cloudinary.com/) account to host and serve the gallery images.
- 
-### Running Locally
- 
-```bash
-npm run dev
-```
- 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
- 
----
  
 ## Project Structure
  
