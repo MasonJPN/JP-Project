@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Readme · MD
+Copy
 
+# Xylon Design Co.
+ 
+A modern, multi-page marketing and portfolio website built for a hardwood furniture craftsman. Designed to showcase custom furniture work, collect client testimonials, and provide a polished online presence that reflects the quality and craftsmanship of the brand.
+ 
+---
+ 
+## 🔗 Live Site
+ 
+> [Add your deployed Vercel URL here]
+ 
+---
+ 
+## 📸 Preview
+ 
+> [Add screenshot or screen recording here]
+ 
+---
+ 
+## Tech Stack
+ 
+| Technology | Purpose |
+|---|---|
+| [Next.js](https://nextjs.org/) | React framework, routing, and SSR |
+| TypeScript | Type safety across the codebase |
+| Tailwind CSS v4 | Utility-first styling |
+| Cloudinary | Image hosting and optimization for the gallery |
+| AOS (Animate on Scroll) | Scroll-triggered entry animations |
+| Google Fonts (Playfair Display + DM Sans) | Typography pairing |
+ 
+---
+ 
+## Features
+ 
+- **Multi-page layout** — Home, About, Gallery, and Contact pages
+- **Testimonials carousel** — Rotating client quotes with smooth transitions
+- **Gallery section** — Cloudinary-powered image grid showcasing furniture pieces
+- **Scroll animations** — AOS-driven reveal animations throughout the site
+- **Responsive design** — Fully optimized for mobile, tablet, and desktop
+- **Navbar with hover effects** — Subtle, polished navigation experience
+- **Refined typography** — Playfair Display for headings, DM Sans for body copy
+---
+ 
 ## Getting Started
-
-First, run the development server:
-
+ 
+### Prerequisites
+ 
+- Node.js `v18+`
+- npm or yarn
+### Installation
+ 
+```bash
+# Clone the repository
+git clone https://github.com/your-username/xylon-design-co.git
+ 
+# Navigate into the project
+cd xylon-design-co
+ 
+# Install dependencies
+npm install
+```
+ 
+### Environment Variables
+ 
+Create a `.env.local` file in the root of the project and add the following:
+ 
+```env
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
+```
+ 
+> You'll need a free [Cloudinary](https://cloudinary.com/) account to host and serve the gallery images.
+ 
+### Running Locally
+ 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+ 
+---
+ 
+## Project Structure
+ 
+```
+xylon-design-co/
+├── app/                  # Next.js App Router pages
+│   ├── page.tsx          # Home page
+│   ├── about/
+│   ├── gallery/
+│   └── contact/
+├── components/           # Reusable UI components
+│   ├── Navbar.tsx
+│   ├── TestimonialsCarousel.tsx
+│   ├── GalleryGrid.tsx
+│   └── Footer.tsx
+├── public/               # Static assets
+├── styles/               # Global styles
+└── next.config.ts
+```
+ 
+---
+ 
+## Deployment
+ 
+This site is deployed on [Vercel](https://vercel.com/). To deploy your own:
+ 
+1. Push the repository to GitHub
+2. Import the project on Vercel
+3. Add your environment variables in the Vercel dashboard
+4. Deploy
+---
+ 
+## Client
+ 
+Built for **Xylon Design Co.** — a custom hardwood furniture brand.
+ 
+---
+ 
+## Author
+ 
+**Mason** — Frontend Developer
+- Portfolio: [your-portfolio-link]
+- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [your-linkedin]
+---
+ 
+## License
+ 
+This project was built for a client and is not open for redistribution. All design assets and content belong to Xylon Design Co.
